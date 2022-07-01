@@ -1,0 +1,43 @@
+<idea-plugin>
+    <id>com.davidcruzvargas.intellij.davidtheme</id>
+    <name>David Theme Yellow</name>
+    <version>1.0</version>
+    <vendor email="davidcruzvargas@gmail.com" url="https://github.com/davidcruzvargas/david-theme">David Cruz Vargas</vendor>
+
+    <description><![CDATA[
+        I made this theme just to myself, trying to experiment a little with a high contrast theme. If someone wants to
+        use it, is more than welcome. Feedback is well-received.
+
+        Regarding to the colorScheme I'm using most of the code of <a href="https://github.com/hiberbee/jetbrains-ide-theme">HiberbeeDark</a>
+        with some changes to adapt to new colors I'm selecting for this theme.
+        <br>
+        Code: <a href="https://github.com/davidcruzvargas/david-theme">Github</a>
+        <br>
+        <h1>Screenshots</h1>
+        <img src="https://raw.githubusercontent.com/davidcruzvargas/david-theme/main/src/main/resources/screenshots/screen.png" width="700" height="373"/>
+        <br/>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      * Initial version
+    ]]>
+    </change-notes>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="fd2bf387-6ff5-4ddf-ad3a-968c1a5789f1" path="/DavidTheme.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
+
